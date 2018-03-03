@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SEUdock
+</name>
+</assembly>
+<members>
+<member name="P:SEUdock.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SEUdock.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SEUdock.My.Resources.Resources.surnulldatelow">
+	<summary>
+  Looks up a localized string similar to 1/1/1900 00:00 AM.
+</summary>
+</member><member name="T:SEUdock.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SEUdock.SqlCeAdapter.sqlConnection">
+ The connection object used for communicating with the database
+ 
+
+</member><member name="M:SEUdock.SqlCeAdapter.#ctor(System.String)">
+ Creates a new SimpleSqlCeAdapter object for an unencrypted
+ database.
+ 
+ The path to the database file
+
+</member><member name="M:SEUdock.SqlCeAdapter.#ctor(System.String,System.String)">
+ Creates a new SimpleSqlCeAdapter object
+ 
+ The connection string used for 
+ connecting to the database
+ The path to the database file
+
+</member><member name="M:SEUdock.SqlCeAdapter.QueryDatabaseForTable(System.String,System.String)">
+ Queries the database for a DataTable object
+ 
+ A SQL SELECT statment
+ A datatable if the sql statment is correct. 
+ Otherwise it returns Nothing
+
+</member><member name="M:SEUdock.SqlCeAdapter.QueryDatabaseForScalar(System.String)">
+ Queries the database for a String object.
+ 
+ A SQL SELECT statement that
+ returns a single value.
+ 
+
+</member><member name="M:SEUdock.SqlCeAdapter.ExecuteNonQuery(System.String)">
+ Executes a SQL statement which returns no value (Which is not
+ a query).
+ 
+ The SQL statement which will be
+ executed
+
+</member>
+</members>
+</doc>

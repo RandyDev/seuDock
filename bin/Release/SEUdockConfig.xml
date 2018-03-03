@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SEUdockConfig>
+    <DefaultLocation>
+        <Location_Name></Location_Name>
+        <Location_ID>00000000-0000-0000-0000-000000000000</Location_ID>
+        <Location_Prefix />
+        <Parent_Name></Parent_Name>
+        <Parent_ID></Parent_ID>
+        <Sync_Interval></Sync_Interval>
+        <Print_TimeStamp></Print_TimeStamp>
+    </DefaultLocation>
+</SEUdockConfig>

@@ -1,0 +1,105 @@
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\bin\Release\SEUdock.exe
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\bin\Release\SEUdock.pdb
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\bin\Release\SEUdock.xml
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.Form1.resources
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.Resources.resources
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.ctrlConn.resources
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.ctrlLoadNumber.resources
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.vbproj.GenerateResource.Cache
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.exe
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.xml
+C:\Users\Randy\AppData\Local\Temporary Projects\SEUdock\obj\Release\SEUdock.pdb
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\Interop.PRENGINECELib.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.vbproj.ResolveComReference.cache
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ClockIn.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ClockInOutReport.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ClockOut.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ConnectionInfo.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.EmployeeList.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.Form1.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.Form2.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.Form3.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.frmSync.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.LoadEditor.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.LoadList.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.Resources.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.NewLoad.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.mySettings.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.OwnerDrawnListBox.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.SelectUnloader.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.Time.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ctrlConn.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.ctrlLoadNumber.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.vbproj.GenerateResource.Cache
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\SEUdock.exe
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\SEUdock.pdb
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\SEUdock.xml
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\Microsoft.Windowsce.Forms.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\OpenNETCF.Net.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Release\PrinterCE.NetCF.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.exe
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.xml
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Release\SEUdock.pdb
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\PrinterCE.NetCF.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\SEUdockConfig.xml
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\seulogo.bmp
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\SEUdock.exe.config
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\SEUdock.exe
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\SEUdock.pdb
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\SEUdock.xml
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\Interop.PRENGINECELib.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\Microsoft.Windowsce.Forms.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\bin\Debug\System.Drawing.dll
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.ClockIn.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.ClockInOutReport.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.ClockOut.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.asyncConn.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.Form1.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.frmSnapShot.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.LoadEditor.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.LoadList.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.Resources.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.NewLoad.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.mySettings.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.SelectUnloader.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.Time.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.ctrlConn.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.OwnerDrawnListBox.resources
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.vbproj.GenerateResource.Cache
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.exe
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.xml
+C:\Projects\SEUdock\SEUdock\SEUdock\obj\Debug\SEUdock.pdb
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\PrinterCE.NetCF.dll
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\SEUdockConfig.xml
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\seulogo.bmp
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\SEUdock.exe.config
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\SEUdock.exe
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\SEUdock.pdb
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\SEUdock.xml
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\Interop.PRENGINECELib.dll
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\Microsoft.Windowsce.Forms.dll
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\System.Data.SqlServerCe.dll
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\bin\Debug\System.Drawing.dll
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\ResolveAssemblyReference.cache
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.ClockIn.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.ClockInOutReport.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.ClockOut.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.asyncConn.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.Form1.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.frmSnapShot.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.LoadEditor.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.LoadList.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.Resources.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.NewLoad.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.mySettings.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.SelectUnloader.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.Time.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.ctrlConn.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.OwnerDrawnListBox.resources
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.vbproj.GenerateResource.Cache
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.exe
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.xml
+K:\WebDevelop\EEXCHANGE\randy.seudock\SEUdock\obj\Debug\SEUdock.pdb

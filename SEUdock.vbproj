@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B59B5CB-2CFB-4DEB-9536-706E85A1EECA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SEUdock.Form1</StartupObject>
+    <RootNamespace>SEUdock</RootNamespace>
+    <AssemblyName>SEUdock</AssemblyName>
+    <ProjectTypeGuids>{68B1623D-7FB9-47D8-8664-7ECEA3297D4F};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <MyType>WindowsForms</MyType>
+    <DeployDirSuffix>SEUdock</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>SEUdock.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>SEUdock.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.PRENGINECELib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Interop.PRENGINECELib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windowsce.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenNETCF.Net, Version=2.3.12004.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\sdf\Samples\VB\ConnectionViewer\OpenNETCF.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="PrinterCE.NetCF, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SEU-PdaApp\PdaApp\PrinterCE.NetCF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\EmpLoadStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\CallBackThread.vb" />
+    <Compile Include="UI\ClockIn.Designer.vb">
+      <DependentUpon>ClockIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ClockIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ClockInOutReport.Designer.vb">
+      <DependentUpon>ClockInOutReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ClockInOutReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ClockOut.Designer.vb">
+      <DependentUpon>ClockOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ClockOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\asyncConn.Designer.vb">
+      <DependentUpon>asyncConn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\asyncConn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSnapShot.Designer.vb">
+      <DependentUpon>frmSnapShot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmSnapShot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoadEditor.Designer.vb">
+      <DependentUpon>LoadEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoadEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoadList.Designer.vb">
+      <DependentUpon>LoadList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoadList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewLoad.Designer.vb">
+      <DependentUpon>NewLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewLoad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\mySettings.Designer.vb">
+      <DependentUpon>mySettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\mySettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerDrawnListbox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\printReceipt.vb" />
+    <Compile Include="DAL\replication.vb" />
+    <Compile Include="UI\SelectUnloader.Designer.vb">
+      <DependentUpon>SelectUnloader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectUnloader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAL\SqlCeAdapter.vb" />
+    <Compile Include="UI\Time.Designer.vb">
+      <DependentUpon>Time.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Time.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BL\TimePunche.vb" />
+    <Compile Include="DAL\TimePuncheDAL.vb" />
+    <Compile Include="User Controls\ctrlConn.Designer.vb">
+      <DependentUpon>ctrlConn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\ctrlConn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\Utils.vb" />
+    <Compile Include="BL\WorkOrder.vb" />
+    <Compile Include="DAL\WorkOrderDAL.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ClockIn.resx">
+      <DependentUpon>ClockIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ClockInOutReport.resx">
+      <DependentUpon>ClockInOutReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ClockOut.resx">
+      <DependentUpon>ClockOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\asyncConn.resx">
+      <DependentUpon>asyncConn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSnapShot.resx">
+      <DependentUpon>frmSnapShot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoadEditor.resx">
+      <DependentUpon>LoadEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoadList.resx">
+      <DependentUpon>LoadList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewLoad.resx">
+      <DependentUpon>NewLoad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\mySettings.resx">
+      <DependentUpon>mySettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectUnloader.resx">
+      <DependentUpon>SelectUnloader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Time.resx">
+      <DependentUpon>Time.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\ctrlConn.resx">
+      <DependentUpon>ctrlConn.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="PrCE_NetCF.dll" />
+    <Content Include="PrinterCE.NetCF.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="OwnerDrawnListbox.resx">
+      <DependentUpon>OwnerDrawnListbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="SEUdockConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="seulogo.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F184B08F-C81C-45F6-A57F-5ABD9991F28F}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SEUdock
+</name>
+</assembly>
+<members>
+<member name="P:SEUdock.My.Resources.Resources.ResourceManager">
+	<summary>
+   Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SEUdock.My.Resources.Resources.Culture">
+	<summary>
+   Overrides the current thread's CurrentUICulture property for all
+   resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SEUdock.My.Resources.Resources">
+	<summary>
+   A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SEUdock.SqlCeAdapter.sqlConnection">
+ The connection object used for communicating with the database
+ 
+
+</member><member name="M:SEUdock.SqlCeAdapter.#ctor(System.String)">
+ Creates a new SimpleSqlCeAdapter object for an unencrypted
+ database.
+ 
+ The path to the database file
+
+</member><member name="M:SEUdock.SqlCeAdapter.#ctor(System.String,System.String)">
+ Creates a new SimpleSqlCeAdapter object
+ 
+ The connection string used for 
+ connecting to the database
+ The path to the database file
+
+</member><member name="M:SEUdock.SqlCeAdapter.QueryDatabaseForTable(System.String)">
+ Queries the database for a DataTable object
+ 
+ A SQL SELECT statment
+ A datatable if the sql statment is correct. 
+ Otherwise it returns Nothing
+
+</member><member name="M:SEUdock.SqlCeAdapter.QueryDatabaseForScalar(System.String)">
+ Queries the database for a String object.
+ 
+ A SQL SELECT statement that
+ returns a single value.
+ 
+
+</member><member name="M:SEUdock.SqlCeAdapter.ExecuteNonQuery(System.String)">
+ Executes a SQL statement which returns no value (Which is not
+ a query).
+ 
+ The SQL statement which will be
+ executed
+
+</member><member name="T:SEUdock.SEUocDataSet.CarrierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmploymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.VendorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.CarrierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmploymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.VendorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.CarrierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.EmploymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet.VendorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SEUdock.SEUocDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSetTableAdapters.CarrierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSetTableAdapters.EmployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSetTableAdapters.EmploymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SEUdock.SEUocDataSetTableAdapters.VendorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>
